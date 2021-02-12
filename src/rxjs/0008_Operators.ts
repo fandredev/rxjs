@@ -14,3 +14,5 @@ ajax({
   concatAll(),
   map((repos: any) => repos?.name)
 ).subscribe(console.log)
+
+console.log('Fim')
